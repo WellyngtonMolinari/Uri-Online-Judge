@@ -2,14 +2,11 @@
 
 int main()
 {
-    int A, B, sum;
+    int A, B;
     
     scanf("%d %d", &A, &B);
-    
-    sum = A + B;
 
-    printf("X = %d\n", sum);
-
+    printf("X = %d\n", A+B);
 
     return 0;
 }
